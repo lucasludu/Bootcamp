@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\CorteControl\CorteControl\obj\Debug\CorteControl.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\CorteControl\CorteControl\obj\Debug\CorteControl.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\CorteControl\CorteControl\obj\Debug\CorteControl.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\CorteControl\CorteControl\bin\Debug\CorteControl.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\CorteControl\CorteControl\bin\Debug\CorteControl.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\CorteControl\CorteControl\bin\Debug\CorteControl.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\CorteControl\CorteControl\obj\Debug\CorteControl.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\CorteControl\CorteControl\obj\Debug\CorteControl.pdb

@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase3\ReviewChallenge\ReviewChallenge\obj\Debug\ReviewChallenge.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase3\ReviewChallenge\ReviewChallenge\obj\Debug\ReviewChallenge.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase3\ReviewChallenge\ReviewChallenge\obj\Debug\ReviewChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase3\ReviewChallenge\ReviewChallenge\bin\Debug\ReviewChallenge.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase3\ReviewChallenge\ReviewChallenge\bin\Debug\ReviewChallenge.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase3\ReviewChallenge\ReviewChallenge\bin\Debug\ReviewChallenge.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase3\ReviewChallenge\ReviewChallenge\obj\Debug\ReviewChallenge.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase3\ReviewChallenge\ReviewChallenge\obj\Debug\ReviewChallenge.pdb

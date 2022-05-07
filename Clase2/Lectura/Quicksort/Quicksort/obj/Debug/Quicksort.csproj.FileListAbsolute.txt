@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Quicksort\Quicksort\obj\Debug\Quicksort.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Quicksort\Quicksort\obj\Debug\Quicksort.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Quicksort\Quicksort\obj\Debug\Quicksort.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Quicksort\Quicksort\bin\Debug\Quicksort.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Quicksort\Quicksort\bin\Debug\Quicksort.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Quicksort\Quicksort\bin\Debug\Quicksort.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Quicksort\Quicksort\obj\Debug\Quicksort.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Quicksort\Quicksort\obj\Debug\Quicksort.pdb

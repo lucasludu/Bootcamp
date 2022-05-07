@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase1\EstructuraControl\EstructuraControl\bin\Debug\EstructuraControl.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase1\EstructuraControl\EstructuraControl\bin\Debug\EstructuraControl.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase1\EstructuraControl\EstructuraControl\bin\Debug\EstructuraControl.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase1\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase1\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase1\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase1\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase1\EstructuraControl\EstructuraControl\obj\Debug\EstructuraControl.pdb

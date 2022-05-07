@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstructuraDatos", "EstructuraDatos\EstructuraDatos.csproj", "{CEC5A7A2-F706-4806-BF5A-49AE39912DA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEC5A7A2-F706-4806-BF5A-49AE39912DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC5A7A2-F706-4806-BF5A-49AE39912DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC5A7A2-F706-4806-BF5A-49AE39912DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC5A7A2-F706-4806-BF5A-49AE39912DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A3925DB-3C08-498D-952F-D240DC2B177E}
+	EndGlobalSection
+EndGlobal

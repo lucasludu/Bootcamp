@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Burbuja\Burbuja\bin\Debug\Burbuja.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Burbuja\Burbuja\bin\Debug\Burbuja.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Burbuja\Burbuja\bin\Debug\Burbuja.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Burbuja\Burbuja\obj\Debug\Burbuja.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Burbuja\Burbuja\obj\Debug\Burbuja.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Burbuja\Burbuja\obj\Debug\Burbuja.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Burbuja\Burbuja\obj\Debug\Burbuja.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase2\Lectura\Burbuja\Burbuja\obj\Debug\Burbuja.pdb
