@@ -36,8 +36,8 @@ namespace CorteControl
 
         static void AddRecord(Persona persona)
         {
-            string ruta = "C:\\Users\\Lucaaas\\Desktop\\Bootcamp\\Clase2\\CorteControl\\CorteControl\\persona.csv";//RUTA DEL ARCHIVO
-            string separador = ",";//CREAMOS UN SEPARADOR
+            string ruta = "C:\\Users\\Lucaaas\\Desktop\\Bootcamp_C#.Net\\Clase2\\CorteControl";//RUTA DEL ARCHIVO
+            string separador = ";";//CREAMOS UN SEPARADOR
             StringBuilder salida = new StringBuilder();//CRAMOS UNA INSTANCIA STRINGBUILDER (QUE LEE EL ARRAY COMPLETO)
 
             string cadena = persona.ToString();
@@ -51,13 +51,13 @@ namespace CorteControl
                 File.AppendAllText(ruta, salida.ToString());//AGREGA LA CADENA AL ARCHIVO.
             }
         }
+
         static void Main(string[] args)
         {
-            Persona persona = new Persona(42, "Daiana", "Bilhere", 100, 5, 200, "05/05/2022");
-
-            //AddRecord(persona);
+            Persona persona = new Persona(42, "Mel", "Genga", 100, 5, 200, "06/05/2022");
+            AddRecord(persona);
             mostrarArchivoCSV(persona);
-            
+
             Console.ReadKey();
         }
 

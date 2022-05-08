@@ -34,14 +34,6 @@ namespace CorteControl.Class
             return legajo + ";" + nombre + ";" + apellido + ";" + valorHora + ";" + horasTrabajadas + ";" + sueldoCobrar + ";" + ultimoProceso;
         }
 
-        /*public override string ToString()
-        {
-            return "Legajo: " + legajo + 
-                   "\nNombre y Apellido: " + nombre + ", " + apellido +
-                   "\nValor de la hora: " + valorHora + 
-                   "\nHoras Trabajadas: " + horasTrabajadas +
-                   "\nSueldo a Cobrar: " + sueldoCobrar +
-                   "\nUltimo Proceso: " + ultimoProceso;
-        }*/
+
     }
 }
