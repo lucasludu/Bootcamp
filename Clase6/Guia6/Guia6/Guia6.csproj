@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicio12\Extencion.cs" />
     <Compile Include="Ejercicio1\Class1.cs" />
     <Compile Include="Ejercicio1\Rectangulo.cs" />
     <Compile Include="Ejercicio2\Class1.cs" />
@@ -53,14 +54,14 @@
     <Compile Include="Ejercicio4\CuentaCorriente.cs" />
     <Compile Include="Ejercicio4\Propietario.cs" />
     <Compile Include="Ejercicio5\Pila.cs" />
+    <Compile Include="Ejercicio6\Cola.cs" />
+    <Compile Include="Ejercicio9\Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Ejercicio6\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
