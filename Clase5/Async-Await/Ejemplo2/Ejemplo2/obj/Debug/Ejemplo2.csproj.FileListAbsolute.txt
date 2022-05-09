@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Async-Await\Ejemplo2\Ejemplo2\bin\Debug\Ejemplo2.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Async-Await\Ejemplo2\Ejemplo2\bin\Debug\Ejemplo2.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Async-Await\Ejemplo2\Ejemplo2\bin\Debug\Ejemplo2.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Async-Await\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Async-Await\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Async-Await\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Async-Await\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Async-Await\Ejemplo2\Ejemplo2\obj\Debug\Ejemplo2.pdb
