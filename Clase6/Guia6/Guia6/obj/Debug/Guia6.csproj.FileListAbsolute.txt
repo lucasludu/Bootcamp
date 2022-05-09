@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\Guia6\Guia6\bin\Debug\Guia6.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\Guia6\Guia6\bin\Debug\Guia6.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\Guia6\Guia6\bin\Debug\Guia6.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\Guia6\Guia6\obj\Debug\Guia6.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\Guia6\Guia6\obj\Debug\Guia6.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\Guia6\Guia6\obj\Debug\Guia6.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\Guia6\Guia6\obj\Debug\Guia6.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\Guia6\Guia6\obj\Debug\Guia6.pdb
