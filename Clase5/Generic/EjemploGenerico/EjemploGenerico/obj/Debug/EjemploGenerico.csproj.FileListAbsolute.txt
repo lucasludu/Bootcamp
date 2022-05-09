@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Generic\EjemploGenerico\EjemploGenerico\bin\Debug\EjemploGenerico.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Generic\EjemploGenerico\EjemploGenerico\bin\Debug\EjemploGenerico.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Generic\EjemploGenerico\EjemploGenerico\bin\Debug\EjemploGenerico.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Generic\EjemploGenerico\EjemploGenerico\obj\Debug\EjemploGenerico.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Generic\EjemploGenerico\EjemploGenerico\obj\Debug\EjemploGenerico.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Generic\EjemploGenerico\EjemploGenerico\obj\Debug\EjemploGenerico.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Generic\EjemploGenerico\EjemploGenerico\obj\Debug\EjemploGenerico.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\Generic\EjemploGenerico\EjemploGenerico\obj\Debug\EjemploGenerico.pdb
