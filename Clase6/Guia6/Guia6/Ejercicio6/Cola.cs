@@ -4,9 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Guia6.Ejercicio5
+namespace Guia6.Ejercicio6
 {
-
     public abstract class Animal
     {
         public string nombre { get; set; }
@@ -25,12 +24,11 @@ namespace Guia6.Ejercicio5
 
     public class Perro : Animal
     {
-        public Perro(string nombre) :base(nombre)
+        public Perro(string nombre) : base(nombre)
         {
 
         }
     }
-
     public class Gato : Animal
     {
         public Gato(string nombre) : base(nombre)
@@ -39,11 +37,11 @@ namespace Guia6.Ejercicio5
         }
     }
 
-    public class Pila<T>
+    public class Cola<T> 
     {
         private List<T> elementos;
 
-        public Pila()
+        public Cola()
         {
             elementos = new List<T>();
         }
@@ -53,9 +51,9 @@ namespace Guia6.Ejercicio5
             elementos.Insert(0, obj);
         }
 
-        public T Desapilar()
+        public T Desencolar()
         {
-            T obj = elementos.First();
+            T obj = elementos.Last();
             elementos.Remove(obj);
             return obj;
         }
