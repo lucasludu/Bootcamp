@@ -1,8 +1,0 @@
-C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\POO\Ejercicio5\Ejercicio5\bin\Debug\Ejercicio5.exe.config
-C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\POO\Ejercicio5\Ejercicio5\bin\Debug\Ejercicio5.exe
-C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\POO\Ejercicio5\Ejercicio5\bin\Debug\Ejercicio5.pdb
-C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\POO\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.csproj.AssemblyReference.cache
-C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\POO\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.csproj.SuggestedBindingRedirects.cache
-C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\POO\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.csproj.CoreCompileInputs.cache
-C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\POO\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.exe
-C:\Users\Lucaaas\Desktop\Bootcamp\Clase5\POO\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.pdb
