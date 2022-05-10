@@ -5,6 +5,7 @@ SOLID
 	I : Interface Segregation Principle
 	D : Dependency Invsersion Principle
 
+
 	1) SRP : 
 Principio de responsabilidad unica.
 Cada Clase debe hacer una sola cosa.
@@ -42,3 +43,19 @@ Se reduce el test, pues al extender el comportamiento, solo se hace test sobre l
 Desventajas:
 A veces no es posible implementarlo y hay que modificar la clase.
 Lo mejor es planear OCP desde el inicio.
+
+
+	3) Liskov
+Liskov substitution principie	
+Principio de sustitucion de Liskov
+Este principio nos dice que los objetos de clases hijas deben de poder sustituir a los objetos de las clases padre sin ocaccionar problemas.
+Ayuda al mantenimiento.
+Mantenemos la funcionalidad y al mismo tiempo conservamos las clases derivada.
+
+Ventajas
+Ayuda al mantenimiento
+Promueve la reutilizacion del codigo.
+
+Desventajas
+Es mejor colocarlo en la etapa de diseño.
+Se debe manejar bien el uso de polimorfismo para usarlo apropiadamente.
