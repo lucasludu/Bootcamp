@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\DesignPatern\DesignPatern\obj\Debug\DesignPatern.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\DesignPatern\DesignPatern\obj\Debug\DesignPatern.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\DesignPatern\DesignPatern\obj\Debug\DesignPatern.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\DesignPatern\DesignPatern\bin\Debug\DesignPatern.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\DesignPatern\DesignPatern\bin\Debug\DesignPatern.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\DesignPatern\DesignPatern\bin\Debug\DesignPatern.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\DesignPatern\DesignPatern\obj\Debug\DesignPatern.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\DesignPatern\DesignPatern\obj\Debug\DesignPatern.pdb
