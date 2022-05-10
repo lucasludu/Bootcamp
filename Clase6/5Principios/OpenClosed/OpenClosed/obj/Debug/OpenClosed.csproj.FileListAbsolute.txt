@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosed\OpenClosed\bin\Debug\OpenClosed.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosed\OpenClosed\bin\Debug\OpenClosed.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosed\OpenClosed\bin\Debug\OpenClosed.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosed\OpenClosed\obj\Debug\OpenClosed.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosed\OpenClosed\obj\Debug\OpenClosed.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosed\OpenClosed\obj\Debug\OpenClosed.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosed\OpenClosed\obj\Debug\OpenClosed.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosed\OpenClosed\obj\Debug\OpenClosed.pdb

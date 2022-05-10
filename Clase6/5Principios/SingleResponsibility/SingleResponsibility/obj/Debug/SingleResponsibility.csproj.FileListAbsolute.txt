@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibility\SingleResponsibility\bin\Debug\SingleResponsibility.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibility\SingleResponsibility\bin\Debug\SingleResponsibility.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibility\SingleResponsibility\bin\Debug\SingleResponsibility.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibility\SingleResponsibility\obj\Debug\SingleResponsibility.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibility\SingleResponsibility\obj\Debug\SingleResponsibility.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibility\SingleResponsibility\obj\Debug\SingleResponsibility.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibility\SingleResponsibility\obj\Debug\SingleResponsibility.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibility\SingleResponsibility\obj\Debug\SingleResponsibility.pdb

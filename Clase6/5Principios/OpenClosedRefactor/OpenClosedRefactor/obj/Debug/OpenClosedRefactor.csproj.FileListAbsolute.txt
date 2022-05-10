@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosedRefactor\OpenClosedRefactor\bin\Debug\OpenClosedRefactor.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosedRefactor\OpenClosedRefactor\bin\Debug\OpenClosedRefactor.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosedRefactor\OpenClosedRefactor\bin\Debug\OpenClosedRefactor.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosedRefactor\OpenClosedRefactor\obj\Debug\OpenClosedRefactor.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosedRefactor\OpenClosedRefactor\obj\Debug\OpenClosedRefactor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosedRefactor\OpenClosedRefactor\obj\Debug\OpenClosedRefactor.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosedRefactor\OpenClosedRefactor\obj\Debug\OpenClosedRefactor.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\OpenClosedRefactor\OpenClosedRefactor\obj\Debug\OpenClosedRefactor.pdb

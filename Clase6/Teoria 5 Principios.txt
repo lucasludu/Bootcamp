@@ -1,0 +1,44 @@
+SOLID
+	S : Single Responsibility Principle
+	O : Open-Closed Principle
+	L : Liskov Substitution Principle
+	I : Interface Segregation Principle
+	D : Dependency Invsersion Principle
+
+	1) SRP : 
+Principio de responsabilidad unica.
+Cada Clase debe hacer una sola cosa.
+La clase no debe tener mas de una responsabilidad.
+Si la clase tiene multiples responsabilidades es dificil darle mantenimiento.
+
+Este principio dice que la clase debe tener una razon para cambiar, solamente debe tener una responsabilidad.
+
+Beneficios:
+El codigo es menos complejo
+Mas facil de leer entender y modificar
+Mantenimiento facil
+Mejor reutilizacion de la clase
+La clase y los métodos son más compactos
+
+Desventajas
+El principio se aplica de forma subjetiva, no hay regla formal y estricta
+En proyectos previamente creados puede ser dificil de aplicarlo
+Es mejor aplicarlo desde el inicio
+Puede llevar a la desorganizacion si no se aplica bien o se exagera.
+
+
+	2) OCP
+Open Closed Principle
+Principio de Abierto Cerrado
+Las clases y los metodos deben estar abiertos para extension pero cerrados para modificacion
+Debemos de tratar de crear codigo que no necesite ser modificado cada que hay cambios en los requerimientos
+Lo hacemos al proveer un mecanismos que permite a la clase extender sus comportamientos sin modificar a la clase
+Es lo que debemos de tratar de lograr la mayor parte del tiempo
+
+Beneficios:
+Nos ayuda a reducir los bugs al disminuir la cantidad de cambios
+Se reduce el test, pues al extender el comportamiento, solo se hace test sobre lo nuevo y no toda la clase.
+
+Desventajas:
+A veces no es posible implementarlo y hay que modificar la clase.
+Lo mejor es planear OCP desde el inicio.

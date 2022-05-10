@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibilityRefactor\SingleResponsibilityRefactor\bin\Debug\SingleResponsibilityRefactor.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibilityRefactor\SingleResponsibilityRefactor\bin\Debug\SingleResponsibilityRefactor.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibilityRefactor\SingleResponsibilityRefactor\bin\Debug\SingleResponsibilityRefactor.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibilityRefactor\SingleResponsibilityRefactor\obj\Debug\SingleResponsibilityRefactor.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibilityRefactor\SingleResponsibilityRefactor\obj\Debug\SingleResponsibilityRefactor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibilityRefactor\SingleResponsibilityRefactor\obj\Debug\SingleResponsibilityRefactor.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibilityRefactor\SingleResponsibilityRefactor\obj\Debug\SingleResponsibilityRefactor.exe
+C:\Users\Lucaaas\Desktop\Bootcamp\Clase6\5Principios\SingleResponsibilityRefactor\SingleResponsibilityRefactor\obj\Debug\SingleResponsibilityRefactor.pdb
