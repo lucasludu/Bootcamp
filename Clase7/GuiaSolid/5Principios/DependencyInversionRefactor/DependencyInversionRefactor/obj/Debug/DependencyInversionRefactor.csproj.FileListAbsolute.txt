@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\DependencyInversionRefactor\DependencyInversionRefactor\bin\Debug\DependencyInversionRefactor.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\DependencyInversionRefactor\DependencyInversionRefactor\bin\Debug\DependencyInversionRefactor.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\DependencyInversionRefactor\DependencyInversionRefactor\bin\Debug\DependencyInversionRefactor.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\DependencyInversionRefactor\DependencyInversionRefactor\obj\Debug\DependencyInversionRefactor.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\DependencyInversionRefactor\DependencyInversionRefactor\obj\Debug\DependencyInversionRefactor.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\DependencyInversionRefactor\DependencyInversionRefactor\obj\Debug\DependencyInversionRefactor.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\DependencyInversionRefactor\DependencyInversionRefactor\obj\Debug\DependencyInversionRefactor.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\DependencyInversionRefactor\DependencyInversionRefactor\obj\Debug\DependencyInversionRefactor.pdb

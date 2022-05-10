@@ -59,3 +59,47 @@ Promueve la reutilizacion del codigo.
 Desventajas
 Es mejor colocarlo en la etapa de diseño.
 Se debe manejar bien el uso de polimorfismo para usarlo apropiadamente.
+
+	4) ISP
+Interface Segregation Principle
+Principio de Segregacion de Interfaz
+Ningun cliente debe de ser forzado a depender de metodos que no usa.
+Debemos de reducir el codigo a la implementacion mas pequeña
+Las interfaces deben de tener solo las declaraciones necesarias.
+Se usa si es necesario dividir las interfaces en varias.
+
+Si usamos una interfaz para multiples propositos podemos tener clases que solo usen unos metodos y otros no
+Las clases se vuelven mas faciles de implementar
+El codigo se hace mas facil de entender y darle mantenimiento
+
+Ventajas:
+Interfaces mas pequeñas son mas sencillas de implementar
+El mantenimiento es mas facil 
+La lectura del codigo es mas facil.
+
+Desventajas:
+Si se exagera terminamos con una gran cantidad de interfaces.
+
+
+	5) DIP
+Dependency Inversion Principle
+Principio de Invercion de dedpendencia
+Vamos a tener modulos de alto nivel que pueden ser reutilizados y que no sean afectados por cambios en modulos de bajo nivel
+Para lograrlo tenemos que adicionar abstracciones que desacoplen los de alto nivel de los de abajo
+
+Los modulos de alto nivel de dependen de los de bajo nivel, pero ambos dependen de las abstracciones
+Las abstracciones no deben de depender de los detalles, pero los detalles de las abstracciones.
+
+Los modulos de bajo nivel contienen componentes que se centran mas en los detalles individuales de la aplicacion.
+Son usados dentro de los modulos de alto nivel
+Lo mas importante es que ambos modulos dependen de las abstacciones.
+
+Ventajas
+Reduce el numero de dependencias entre los modulos
+Las clases no estan fuertemente acopladas con los elementos de bajo nivel
+Aumenta la reutilizacion de codigo
+Si se implementa correctamente aumenta la flexibilidad y estabilidad.
+
+Desventaja
+Es riesgoso aplicarlo a modulos que ya existen
+

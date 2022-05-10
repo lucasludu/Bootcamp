@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\InterfaceSegregation\InterfaceSegregation\bin\Debug\InterfaceSegregation.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\InterfaceSegregation\InterfaceSegregation\bin\Debug\InterfaceSegregation.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\InterfaceSegregation\InterfaceSegregation\bin\Debug\InterfaceSegregation.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase7\GuiaSolid\5Principios\InterfaceSegregation\InterfaceSegregation\obj\Debug\InterfaceSegregation.pdb
