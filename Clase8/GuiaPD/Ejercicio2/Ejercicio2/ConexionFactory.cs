@@ -9,7 +9,7 @@ namespace Ejercicio2
     class ConexionFactory
     {
         IConexion conexiones;
-        public void GetConection(Conexion conexion)
+        public void GetConnection(Conexion conexion)
         {
             switch(conexion)
             {

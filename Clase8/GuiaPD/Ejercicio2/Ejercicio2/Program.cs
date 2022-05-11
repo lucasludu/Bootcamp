@@ -12,11 +12,11 @@ namespace Ejercicio2
         {
             ConexionFactory conexionFactory = new ConexionFactory();
 
-            conexionFactory.GetConection(Conexion.MySql);
+            conexionFactory.GetConnection(Conexion.MySql);
             Console.WriteLine("\n-----------------\n");
-            conexionFactory.GetConection(Conexion.SQL);
+            conexionFactory.GetConnection(Conexion.SQL);
             Console.WriteLine("\n-----------------\n");
-            conexionFactory.GetConection(Conexion.Oracle);
+            conexionFactory.GetConnection(Conexion.Oracle);
             Console.WriteLine("\n-----------------\n");
 
             Console.ReadKey();
