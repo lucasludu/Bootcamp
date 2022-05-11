@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Singleton\Singleton\bin\Debug\Singleton.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Singleton\Singleton\bin\Debug\Singleton.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Singleton\Singleton\bin\Debug\Singleton.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Singleton\Singleton\obj\Debug\Singleton.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Singleton\Singleton\obj\Debug\Singleton.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Singleton\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Singleton\Singleton\obj\Debug\Singleton.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Singleton\Singleton\obj\Debug\Singleton.pdb
