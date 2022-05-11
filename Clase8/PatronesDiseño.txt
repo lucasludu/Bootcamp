@@ -54,6 +54,24 @@ Si en tenemos acceso al codigo de la clase, no se puede implementar Clone() de f
 Verificar que el clonado en realidad sea mas barata que la instanciacion.
 
 
+METODO FABRICA
+Permite crear objetos, pero deja a las subclases decidir que clase instanciar
+Se decide la clase a instanciar basandose en la informacion que provee el cliente
+
+Partes Importantes
+IProducto: La interfaz para los productos
+ProductoN: Clase que implementa IProducto
+Creador: Provee el metodo fabrica
+MetodoFabrica: Decide que clase instanciar
+
+Usos
+Ayuda a crear independencia de las clases al programar hacia una interfaz y no una clase concreta
+Se usa cuando es importante tener flexibilidad y se enecesita por alguna razon seleccionar una clase sobre otra
+Cuando una clase no puede anticipar que tipo de objeto debe de crear
+Una clase usa a sus subclases para especificar que objeto crear
+Necesitamos tener un lugar especifico donde se encuentre el conocimiento de como crear las clases.
+
+
 TIPO DE DISEÑO COMPORTAMIENTO
 
 	ITERATOR
