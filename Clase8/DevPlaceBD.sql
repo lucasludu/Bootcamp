@@ -10,7 +10,7 @@ CREATE TABLE Tecnologia (
 
 CREATE TABLE Curso (
 	idCurso INT NOT NULL IDENTITY,
-	idTecnologia INT,
+	IdTecnologia INT,
 	nombreCurso VARCHAR(50) NOT NULL,
 	fechaInicio DATETIME,
 	fechaFinal DATETIME,
@@ -25,10 +25,12 @@ INSERT INTO Tecnologia (nombreTecnologia) VALUES ('.NET'),
 
 SELECT * FROM Tecnologia;
 
-INSERT INTO Curso (nombreCurso, fechaInicio, fechaFinal, cantidadAlumnos) VALUES ('.Net', '2022-03-01', '2022-06-01', 300),
-																				 ('C#', '2022-04-01', '2022-07-01', 400),
-																				 ('Java', '2022-05-01', '2022-08-01', 500);
+INSERT INTO Curso (IdTecnologia, nombreCurso, fechaInicio, fechaFinal, cantidadAlumnos) VALUES (1, '.Net', '2022-03-01', '2022-06-01', 300),
+																				 (2, 'C#', '2022-04-01', '2022-07-01', 400),
+																				 (3, 'Java', '2022-05-01', '2022-08-01', 500);
 
 SELECT * FROM Curso;
 
 SELECT * FROM Tecnologia T JOIN Curso C ON T.idTecnologia = C.idCurso
+
+drop table if exists Curso;
