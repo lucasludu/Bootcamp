@@ -1,4 +1,6 @@
-	SINGLETON
+TIPO DE DISEÑO CRACIONAL	
+
+SINGLETON
 Garantiza que solo una instancia de una clase pueda existir
 Crea un punto global de acceso para ese objeto
 La clase se instancia solo una vez
@@ -14,6 +16,45 @@ Si usamos otros patrones de los que requerimos solo una instancia como: fachada,
 Cuando se necesita controlar el acceso a la instancia
 El control debe de permanecer en la clase instanciada y no en otro mecanismo
 Crear una excepcion si se intenta instanciar mas de una vez la clase.
+
+
+PROTOTYPE:
+Separan al sistema de la forma como los objetos son creados, compuestos y representado
+Aumentan la flexibilidad del sistema con relacion a la creacion de objetos
+
+El patron prototipo
+Crea nuevos objetos al clonar a prototipos ya existentes
+Agiliza la instanciacion de clases grandes
+Mantiene un registro de los objetos copiados
+Esconde las clases de las que fueron creados
+
+La creacion del objeto es por clonacion y no por instanciacion
+Se repite cuantas veces sea necesario
+Se pueden adicionar en tiempo de ejecucion
+Es bueno tener un administrador de prototipos que tenga una lista de los prototipos disponibles
+
+Partes importantes:
+IPrototipo: Define la interfaz que indica que el prototipo es clonable
+AdminPrototipo: La clase tiene la capacidad de hacer clones, tiene la lista
+Prototipo: Clase que puede ser clonada
+Cliente: Adiciona prototipos a la lista y pide clones
+
+Aplicaciones
+Se usa cuando la instaciacion es costosa y clonacion barata
+Si el constructor es muy pesado, este patron es buena opcion
+Necesitamos tener una version del objeto que no debe de alterarse (prototipo) y otras que si cambien de estado
+Esconder del cliente la clase de la cual surgen los objetos
+Para sustituir al patron fabrica si fuera necesario
+Calculos pesados que se necesitan hacer, los hacemos una vez y luego clonamos
+Se puede usar cuando se crea la instancia o cuando la instancia ya ha sido creada.
+
+Cuidado con
+Clases que tengan referencias circulares a otras clases no pueden ser clonadas
+Si en tenemos acceso al codigo de la clase, no se puede implementar Clone() de forma directa y  es necesario hacer clases intermedias
+Verificar que el clonado en realidad sea mas barata que la instanciacion.
+
+
+TIPO DE DISEÑO COMPORTAMIENTO
 
 	ITERATOR
 Provee un mecanismo para acceder a los elementos de una coleccion (estructura de datos) de forma secuencial sin tener que conocer como esta estructurada
