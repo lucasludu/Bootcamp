@@ -14,3 +14,24 @@ Si usamos otros patrones de los que requerimos solo una instancia como: fachada,
 Cuando se necesita controlar el acceso a la instancia
 El control debe de permanecer en la clase instanciada y no en otro mecanismo
 Crear una excepcion si se intenta instanciar mas de una vez la clase.
+
+	ITERATOR
+Provee un mecanismo para acceder a los elementos de una coleccion (estructura de datos) de forma secuencial sin tener que conocer como esta estructurada
+Tambien puede filtrar los elementos de la coleccion
+Los iteradores y enumeradores trabajan de cerca
+Un enumerador es responsable de producir el siguiente elemento de una secuencia dependiendo de un criterio en particular
+Esa secuencia se dice que es enumerable
+El iterador es el mecanismo por medio del cual recorremos esta secuencia de inicio a fin
+C# profee al foreach y es el que implementaremos 
+
+Partes importantes:
+IEnumerador: Interfaz que define al enumerador
+IEnumerable: Interfaz que indica que esa clase puede ser usada por el iterator
+
+Usos
+CUando deseamos separar el proceso de iteracion del de enumerador
+Lo usamos cuando la estructura es compleja
+Cuando hay posibles cambios de la coleccion
+Cuando se requieren diversas iteraciones sobre la coleccion, posiblemente al mismo tiempo
+El mismo tipo de iteracion se puede aplicar a diferentes datos.
+

@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Iterator\Iterator\bin\Debug\Iterator.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Iterator\Iterator\bin\Debug\Iterator.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Iterator\Iterator\bin\Debug\Iterator.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Iterator\Iterator\obj\Debug\Iterator.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Iterator\Iterator\obj\Debug\Iterator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Iterator\Iterator\obj\Debug\Iterator.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Iterator\Iterator\obj\Debug\Iterator.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\Iterator\Iterator\obj\Debug\Iterator.pdb
