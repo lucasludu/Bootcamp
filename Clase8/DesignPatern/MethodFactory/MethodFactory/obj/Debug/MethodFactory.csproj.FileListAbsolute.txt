@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\MethodFactory\MethodFactory\bin\Debug\MethodFactory.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\MethodFactory\MethodFactory\bin\Debug\MethodFactory.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\MethodFactory\MethodFactory\bin\Debug\MethodFactory.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\MethodFactory\MethodFactory\obj\Debug\MethodFactory.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\MethodFactory\MethodFactory\obj\Debug\MethodFactory.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\MethodFactory\MethodFactory\obj\Debug\MethodFactory.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\MethodFactory\MethodFactory\obj\Debug\MethodFactory.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Clase8\DesignPatern\MethodFactory\MethodFactory\obj\Debug\MethodFactory.pdb
