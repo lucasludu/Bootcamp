@@ -26,11 +26,24 @@ INSERT INTO Tecnologia (nombreTecnologia) VALUES ('.NET'),
 SELECT * FROM Tecnologia;
 
 INSERT INTO Curso (IdTecnologia, nombreCurso, fechaInicio, fechaFinal, cantidadAlumnos) VALUES (1, '.Net', '2022-03-01', '2022-06-01', 300),
-																				 (2, 'C#', '2022-04-01', '2022-07-01', 400),
-																				 (3, 'Java', '2022-05-01', '2022-08-01', 500);
+																								(2, 'C#', '2022-04-01', '2022-07-01', 400),
+																								 (3, 'Java', '2022-05-01', '2022-08-01', 500);
 
 SELECT * FROM Curso;
 
 SELECT * FROM Tecnologia T JOIN Curso C ON T.idTecnologia = C.idCurso
 
 drop table if exists Curso;
+
+-- MODIFICAR
+
+update Curso set cantidadAlumnos = cantidadAlumnos / 10;
+
+-- ELIMINAR
+
+delete from Curso where Month(fechaInicio) = '04'; 
+
+-- ALTER TABLE
+
+ALTER TABLE Curso ADD ide VARCHAR(20) NULL;
+
