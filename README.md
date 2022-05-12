@@ -1,6 +1,6 @@
 # Bootcamp de C# y .Net
 
-## Semana 1: (Clase 1 - Clase 5)
+## Semana 1: (Clase 1 - Clase 4)
   - ***Estructura de Control***: 
     Switch y funciones, uso de funciones propias, vectores y arrays, matrices, array multidimencional.
   - ***Estructura de Datos***: 
@@ -9,7 +9,7 @@
     Encapsulamiento y accesibilidad de estado de objeto - Polimorfismo, Herenciam Interfaces, Alcence y tiempo de vida de las variables.
     
    
-## Semana 2: (Clase 6 - Clase 10)
+## Semana 2: (Clase 5 - Clase 10)
   - ***C# Avanzado***: 
     Tipo de datos genericos, Extension methods, Async, Await, Task,
   - ***Principios solid en C#***:
