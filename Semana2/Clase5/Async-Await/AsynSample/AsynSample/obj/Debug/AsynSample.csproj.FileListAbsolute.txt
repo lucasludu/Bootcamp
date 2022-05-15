@@ -1,0 +1,8 @@
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana2\Clase5\Async-Await\AsynSample\AsynSample\bin\Debug\AsynSample.exe.config
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana2\Clase5\Async-Await\AsynSample\AsynSample\bin\Debug\AsynSample.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana2\Clase5\Async-Await\AsynSample\AsynSample\bin\Debug\AsynSample.pdb
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana2\Clase5\Async-Await\AsynSample\AsynSample\obj\Debug\AsynSample.csproj.AssemblyReference.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana2\Clase5\Async-Await\AsynSample\AsynSample\obj\Debug\AsynSample.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana2\Clase5\Async-Await\AsynSample\AsynSample\obj\Debug\AsynSample.csproj.CoreCompileInputs.cache
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana2\Clase5\Async-Await\AsynSample\AsynSample\obj\Debug\AsynSample.exe
+C:\Users\Lucaaas\Desktop\Bootcamp_C#.Net\Semana2\Clase5\Async-Await\AsynSample\AsynSample\obj\Debug\AsynSample.pdb
