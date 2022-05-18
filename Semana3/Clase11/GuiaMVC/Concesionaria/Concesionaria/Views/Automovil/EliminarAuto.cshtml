@@ -1,0 +1,32 @@
+﻿@model Concesionaria.Models.Automovil
+
+@{
+    ViewBag.Title = "EliminarAuto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row" style="margin-top:30px">
+
+    <div class="col-sm-12">
+
+        <div class="panel panel-warning">
+
+            <div class="panel-heading">
+                <h4>Eliminar Automovil</h4>
+            </div>
+
+            <div class="panel-body">
+                <div class="alert alert-danger">
+                    ¿Desea eliminar el auto: @Html.DisplayTextFor(a => a.Marca) - @Html.DisplayTextFor(a => a.Modelo)?
+                </div>
+                <form action="@Url.Action("EliminarAuto","Automovil")" method="post">
+                    <input type="hidden" class="form-control" name="idAuto" value="@Html.DisplayTextFor(a => a.IdAuto)" />
+
+                    <button type="submit" class="btn btn-danger" href="@Url.Action("ListaAutomoviles","Automovil")">Eliminar</button>
+                    <a class="btn btn-warning">Volver</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

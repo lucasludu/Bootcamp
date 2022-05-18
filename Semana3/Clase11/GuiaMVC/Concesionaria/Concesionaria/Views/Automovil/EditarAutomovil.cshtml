@@ -1,0 +1,48 @@
+﻿@model Concesionaria.Models.Automovil
+
+@{
+    ViewBag.Title = "EditarAutomovil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row" style="margin-top:30px">
+
+    <div class="col-sm-12">
+
+        <div class="panel panel-warning">
+
+            <div class="panel-heading">
+                <h4>Editar Automovil</h4>
+            </div>
+
+            <div class="panel-body">
+                <form action="@Url.Action("EditarAutomovil","Automovil")" method="post">
+                    <input type="hidden" class="form-control" name="idAuto" value="@Html.DisplayTextFor(m => m.IdAuto)" />
+                    <div class="form-group">
+                        <label>Marca</label>
+                        <input type="text" class="form-control" name="marca" value="@Html.DisplayTextFor(m => m.Marca)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Modelo</label>
+                        <input type="text" class="form-control" name="modelo" value="@Html.DisplayTextFor(m => m.Modelo)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Año</label>
+                        <input type="text" class="form-control" name="anio" value="@Html.DisplayTextFor(m => m.Anio)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Kilometraje</label>
+                        <input type="text" class="form-control" name="kilometro" value="@Html.DisplayTextFor(m => m.Kilometro)" />
+                    </div>
+                    <div class="form-group">
+                        <label>Precio</label>
+                        <input type="text" class="form-control" name="precio" value="@Html.DisplayTextFor(m => m.Precio)" />
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" href="@Url.Action("LIstaAutomoviles","Automovil")">Editar Automovil</button>
+                    <a class="btn btn-warning" href="@Url.Action("ListaAutomoviles","Automovil")">Volver</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
