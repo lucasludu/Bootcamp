@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CursoEntityMVCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="CursoEntityMVCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CState" EntityType="CursoEntityMVCModel.CState" />
+    <EntitySet Name="Usuario" EntityType="CursoEntityMVCModel.Usuario" />
+    <AssociationSet Name="FK__Usuario__idState__3B75D760" Association="CursoEntityMVCModel.FK__Usuario__idState__3B75D760">
+      <End Role="CState" EntitySet="CState" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CState">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Usuario" Relationship="CursoEntityMVCModel.FK__Usuario__idState__3B75D760" FromRole="CState" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idState" Type="Int32" />
+    <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="CState" Relationship="CursoEntityMVCModel.FK__Usuario__idState__3B75D760" FromRole="Usuario" ToRole="CState" />
+  </EntityType>
+  <Association Name="FK__Usuario__idState__3B75D760">
+    <End Type="CursoEntityMVCModel.CState" Role="CState" Multiplicity="0..1" />
+    <End Type="CursoEntityMVCModel.Usuario" Role="Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CState">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="idState" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

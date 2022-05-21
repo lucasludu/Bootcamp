@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="ProductoSet" EntityType="Model1.Store.ProductoSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CaracteristicaSet" EntityType="Model1.Store.CaracteristicaSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="ProductoCaracteristica" Association="Model1.Store.ProductoCaracteristica">
+      <End Role="Producto" EntitySet="ProductoSet" />
+      <End Role="Caracteristica" EntitySet="CaracteristicaSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="ProductoSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Categoria" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FechaBaja" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CaracteristicaSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductoId" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Precio" Type="float" Nullable="false" />
+    <Property Name="Ancho" Type="float" Nullable="false" />
+    <Property Name="Largo" Type="float" Nullable="false" />
+    <Property Name="Peso" Type="float" Nullable="false" />
+    <Property Name="ProductoId1" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="ProductoCaracteristica">
+    <End Role="Producto" Type="Model1.Store.ProductoSet" Multiplicity="1" />
+    <End Role="Caracteristica" Type="Model1.Store.CaracteristicaSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Caracteristica">
+        <PropertyRef Name="ProductoId1" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ProductoSet" EntityType="Model1.Producto" />
+          <EntitySet Name="CaracteristicaSet" EntityType="Model1.Caracteristica" />
+          <AssociationSet Name="ProductoCaracteristica" Association="Model1.ProductoCaracteristica">
+            <End Role="Producto" EntitySet="ProductoSet" />
+            <End Role="Caracteristica" EntitySet="CaracteristicaSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Producto">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre" Type="String" Nullable="false" />
+          <Property Name="Categoria" Type="String" Nullable="false" />
+          <Property Name="FechaBaja" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Caracteristica" Relationship="Model1.ProductoCaracteristica" FromRole="Producto" ToRole="Caracteristica" />
+        </EntityType>
+        <EntityType Name="Caracteristica">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductoId" Type="String" Nullable="false" />
+          <Property Name="Precio" Type="Double" Nullable="false" />
+          <Property Name="Ancho" Type="Double" Nullable="false" />
+          <Property Name="Largo" Type="Double" Nullable="false" />
+          <Property Name="Peso" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Producto" Relationship="Model1.ProductoCaracteristica" FromRole="Caracteristica" ToRole="Producto" />
+          <Property Name="ProductoId1" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="ProductoCaracteristica">
+          <End Type="Model1.Producto" Role="Producto" Multiplicity="1" />
+          <End Type="Model1.Caracteristica" Role="Caracteristica" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Producto">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Caracteristica">
+              <PropertyRef Name="ProductoId1" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="ProductoSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Producto)">
+        <MappingFragment StoreEntitySet="ProductoSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Categoria" ColumnName="Categoria" />
+          <ScalarProperty Name="FechaBaja" ColumnName="FechaBaja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CaracteristicaSet">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Caracteristica)">
+        <MappingFragment StoreEntitySet="CaracteristicaSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProductoId" ColumnName="ProductoId" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Ancho" ColumnName="Ancho" />
+          <ScalarProperty Name="Largo" ColumnName="Largo" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="ProductoId1" ColumnName="ProductoId1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
