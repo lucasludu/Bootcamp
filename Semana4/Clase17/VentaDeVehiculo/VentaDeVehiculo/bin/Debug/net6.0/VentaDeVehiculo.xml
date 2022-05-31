@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VentaDeVehiculo</name>
+    </assembly>
+    <members>
+        <member name="M:VentaDeVehiculo.Controllers.ClienteController.Get">
+            <summary>
+            Muestra a todos los clientes
+            </summary>
+            <returns>Cliente</returns>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.ClienteController.Post(VentaDeVehiculo.Models.Cliente)">
+            <summary>
+            Crea el cliente
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <param name="cliente">Cliente a ingresar</param>
+            <response code="200">Created. Objeto correctamente creado en la BBDD</response>
+            <response code="400">BadRequest. No se ha creado el objeto en la BBDD. Formato del objeto incorrecto</response>
+            <response code="500">Unauthorized. Error interno dentro de la funcion</response>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.ClienteController.Put(VentaDeVehiculo.Models.Cliente,System.Nullable{System.Int32})">
+            <summary>
+            Modifica al cliente
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <param name="id" example="123">Cliente a modificar</param>
+            <response code="200">Created. Objeto correctamente creado en la BBDD</response>
+            <response code="400">BadRequest. No se ha creado el objeto en la BBDD. Formato del objeto incorrecto</response>
+            <response code="500">Unauthorized. Error interno dentro de la funcion</response>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.ClienteController.Delete(System.Int32)">
+            <summary>
+            Elimina al cliente
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <param name="id" example="123">Cliente a eliminar</param>
+            <response code="200">Created. Objeto correctamente creado en la BBDD</response>
+            <response code="400">BadRequest. No se ha creado el objeto en la BBDD. Formato del objeto incorrecto</response>
+            <response code="500">Unauthorized. Error interno dentro de la funcion</response>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.VehiculoController.Get">
+            <summary>
+            Muestra todos los vehiculos
+            </summary>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.VehiculoController.Post(VentaDeVehiculo.Models.Vehiculo)">
+            <summary>
+            Crea el vehiculo
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <param name="vehiculo">Vehiculo a ingresar</param>
+            <response code="200">Created. Objeto correctamente creado en la BBDD</response>
+            <response code="400">BadRequest. No se ha creado el objeto en la BBDD. Formato del objeto incorrecto</response>
+            <response code="500">Unauthorized. Error interno dentro de la funcion</response>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.VehiculoController.Put(VentaDeVehiculo.Models.Vehiculo,System.Nullable{System.Int32})">
+            <summary>
+            Modifica el vehiculo
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <param name="id" example="123">Vehiculo a modificar</param>
+            <response code="200">Created. Objeto correctamente creado en la BBDD</response>
+            <response code="400">BadRequest. No se ha creado el objeto en la BBDD. Formato del objeto incorrecto</response>
+            <response code="500">Unauthorized. Error interno dentro de la funcion</response>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.VehiculoController.Delete(System.Int32)">
+            <summary>
+            Elimina al vehiculo
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <param name="id" example="123">Vehiculo a eliminar</param>
+            <response code="200">Created. Objeto correctamente creado en la BBDD</response>
+            <response code="400">BadRequest. No se ha creado el objeto en la BBDD. Formato del objeto incorrecto</response>
+            <response code="500">Unauthorized. Error interno dentro de la funcion</response>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.VentaController.Get">
+            <summary>
+            Muestra toda la venta
+            </summary>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.VentaController.Post(VentaDeVehiculo.Models.Venta)">
+            <summary>
+            Crea la venta
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <param name="venta">Venta a ingresar</param>
+            <response code="200">Created. Objeto correctamente creado en la BBDD</response>
+            <response code="400">BadRequest. No se ha creado el objeto en la BBDD. Formato del objeto incorrecto</response>
+            <response code="500">Unauthorized. Error interno dentro de la funcion</response>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.VentaController.Put(VentaDeVehiculo.Models.Venta,System.Nullable{System.Int32})">
+            <summary>
+            Modifica a la venta
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <param name="id" example="123">Venta a modificar</param>
+            <response code="200">Created. Objeto correctamente creado en la BBDD</response>
+            <response code="400">BadRequest. No se ha creado el objeto en la BBDD. Formato del objeto incorrecto</response>
+            <response code="500">Unauthorized. Error interno dentro de la funcion</response>
+        </member>
+        <member name="M:VentaDeVehiculo.Controllers.VentaController.Delete(System.Int32)">
+            <summary>
+            Elimina a la venta
+            </summary>
+            <remarks>Awesomeness!</remarks>
+            <param name="id" example="123">Venta a eliminar</param>
+            <response code="200">Created. Objeto correctamente creado en la BBDD</response>
+            <response code="400">BadRequest. No se ha creado el objeto en la BBDD. Formato del objeto incorrecto</response>
+            <response code="500">Unauthorized. Error interno dentro de la funcion</response>
+        </member>
+        <member name="T:VentaDeVehiculo.Models.Cliente">
+            <summary>
+            Permite registrar los clientes de la concesionaria
+            </summary>
+        </member>
+        <member name="P:VentaDeVehiculo.Models.Cliente.Id">
+            <summary>
+            Id del cliente
+            </summary>
+            <value>El Id se incrementa automaticamente</value>
+        </member>
+        <member name="T:VentaDeVehiculo.Models.Vehiculo">
+            <summary>
+            Permite registrar los vehiculos de la concesionaria
+            </summary>
+        </member>
+        <member name="P:VentaDeVehiculo.Models.Vehiculo.Id">
+            <summary>
+            Id del vehiculo
+            </summary>
+            <value>El Id se incrementa automaticamente</value>
+        </member>
+        <member name="T:VentaDeVehiculo.Models.Venta">
+            <summary>
+            Permite registrar las ventas de los vehiculos de los clientes
+            </summary>
+        </member>
+        <member name="P:VentaDeVehiculo.Models.Venta.Id">
+            <summary>
+            Id de la venta
+            </summary>
+            <value>El Id se incrementa automaticamente</value>
+        </member>
+        <member name="P:VentaDeVehiculo.Models.Venta.VehiculoId">
+            <summary>
+            Se vincula el vehiculo con la venta por id
+            </summary>
+        </member>
+        <member name="P:VentaDeVehiculo.Models.Venta.ClienteId">
+            <summary>
+            Se vincula el cliente con la venta por id
+            </summary>
+        </member>
+    </members>
+</doc>
